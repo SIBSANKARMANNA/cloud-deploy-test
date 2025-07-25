@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'cloud-deploy'
           slot-name: 'Production'
-          package: .
+          package: ./Backend
           
