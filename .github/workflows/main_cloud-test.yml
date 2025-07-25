@@ -52,4 +52,4 @@ jobs:
           app-name: 'cloud-test'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BD932D77C7F44E9088AA8D467556102B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F07F6A448A7E40A68B66F32890EC4524 }}
