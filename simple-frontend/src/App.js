@@ -4,7 +4,7 @@ function App() {
   const [msg, setMsg] = useState('');
 
   useEffect(() => {
-    fetch('https://<your-backend-api>.azurewebsites.net/api/message')
+    fetch('https://cloude-test-hwdrd8gvgqengtd6.canadacentral-01.azurewebsites.net/api/message')
       .then((res) => res.json())
       .then((data) => setMsg(data.message));
   }, []);
